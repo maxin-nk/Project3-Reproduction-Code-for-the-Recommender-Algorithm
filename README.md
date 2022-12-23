@@ -13,7 +13,7 @@ It is a basic memory-based recommendation method based on calculating item-item 
 A simple, non-personalized baseline algorithm that recommends the same list of Top-n item recommendations to each user in terms of item popularity.
 
 # SLIM
-
+It is a linear model designed to compute Top-n recommendations by factorizing the item-item co-occurrence matrix under non-negativity L1 and L2 constraints. The learned item coefficients are used to sparsely aggregate past user interactions and predict the items recommended by users.
 
 # VAE
 It is a variational autoencoder architecture that first projects sparse user interaction vectors onto a potential distribution space, which is later used to generate probability distributions for all items.MultiVAE employs polynomial likelihood and different regularization procedures involving linear annealing.
