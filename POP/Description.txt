@@ -1,0 +1,1 @@
+A simple, non-personalized baseline algorithm that recommends the same list of Top-n item recommendations to each user in terms of item popularity.
