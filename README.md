@@ -10,6 +10,7 @@ It provides an optimization function. Instead of predicting the ratings of speci
 It is a basic memory-based recommendation method based on calculating item-item similarity. In this method, an item is recommended to a user if it is similar to an item previously selected by the user. In CF systems, items selected by the same group of users are considered more similar than items from non-overlapping groups of users.
 
 # POP
+A simple, non-personalized baseline algorithm that recommends the same list of Top-n item recommendations to each user in terms of item popularity.
 
 # SLIM
 
