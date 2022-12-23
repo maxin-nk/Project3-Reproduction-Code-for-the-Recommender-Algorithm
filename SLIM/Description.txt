@@ -1,0 +1,1 @@
+It is a linear model designed to compute Top-n recommendations by factorizing the item-item co-occurrence matrix under non-negativity L1 and L2 constraints. The learned item coefficients are used to sparsely aggregate past user interactions and predict the items recommended by users.
