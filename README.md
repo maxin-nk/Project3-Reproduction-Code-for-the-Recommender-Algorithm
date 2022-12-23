@@ -7,6 +7,7 @@ A matrix decomposition algorithm that uses alternating training to obtain a set 
 It provides an optimization function. Instead of predicting the ratings of specific user and item pairs, it ranks the items consumed by users according to their preferences.
 
 # KNN
+It is a basic memory-based recommendation method based on calculating item-item similarity. In this method, an item is recommended to a user if it is similar to an item previously selected by the user. In CF systems, items selected by the same group of users are considered more similar than items from non-overlapping groups of users.
 
 # POP
 
