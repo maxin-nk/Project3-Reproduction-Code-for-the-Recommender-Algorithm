@@ -1,0 +1,1 @@
+It provides an optimization function. Instead of predicting the ratings of specific user and item pairs, it ranks the items consumed by users according to their preferences.
