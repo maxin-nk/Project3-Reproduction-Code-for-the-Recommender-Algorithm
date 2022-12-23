@@ -4,6 +4,7 @@
 A matrix decomposition algorithm that uses alternating training to obtain a set of user and item embeddings that approximates the original user-item matrix by means of an embedding dot product.
 
 # BPR
+It provides an optimization function. Instead of predicting the ratings of specific user and item pairs, it ranks the items consumed by users according to their preferences.
 
 # KNN
 
